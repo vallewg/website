@@ -1,0 +1,59 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumnos</title>
+    <style type="text/css">
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+        form{
+        text-align: center;
+        }
+        input[type="submit"] {
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #ccc; 
+        padding: 7px; 
+        border-radius: 5px;
+        background-color: #f6ddcc;
+        }
+        select {
+            border: 1px solid #ccc;
+            padding: 7px;
+            border-radius: 5px;
+            background-color: #f6ddcc;
+        }
+
+        body {
+            background-color: #b4cfb9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>ALUMNOS</h1>
+    <hr>
+    <p>Si ya eres un alumno oficial de una preparatoria, aquí encontrarás información general sobre ciclos y horarios y más.</p>
+
+    <form action="" method="get">
+        <label for="semestre">Seleccione el semestre que está cursando:</label>
+        <select id="semestre" name="semestre" onchange="window.location.href=this.value;">
+            <option value="">Seleccione su semestre...</option>
+            <option value="1erSem.html">1er Semestre</option>
+            <option value="2doSem.html">2do Semestre</option>
+            <option value="3erSem.html">3er Semestre</option>
+            <option value="4toSem.html">4to Semestre</option>
+            <option value="5toSem.html">5to Semestre</option>
+            <option value="6toSem.html">6to Semestre</option>
+        </select>
+    </form>
+
+    <a href="borra.html"> <input type="submit" name="Regresar" value="Regresar"> </a>
+
+</body>
+</html>
